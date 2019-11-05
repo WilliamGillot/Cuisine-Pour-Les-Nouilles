@@ -8,7 +8,7 @@ Les différents users :
 -    Utilisateur avec un compte. Il peut noter/commenter les recettes ainsi que proposer des recettes à l’admin
 -    Utilisateur admin . Il peut supprimer les commentaires, accepter ou non les nouvelles recettes proposées et rajouter du contenu.
 
-Les différentes pages : 
+Le Menu : 
 
 -    Recettes et photos
 -    Shopping (ustensiles, épices, …)
@@ -16,11 +16,6 @@ Les différentes pages :
 -    Article 
 -    Login 
 -    Register
-
-Avec lien vers page Facebook/Instagram 
-
-Le Menu : 
-
 -    Apéritif
 -    Entrée
 -    Plat
@@ -31,8 +26,11 @@ Le Menu :
 
 Barre de recherche par mot clef 
 
+Lien vers page Facebook/Instagram 
+
 (Site bilingue Anglais/Français)
-Logo (Géré en externe)
+
+Logo (Géré en externe)  
 
 ## 05/11/2019:
 Création de l'ossature (ok)  
