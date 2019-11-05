@@ -33,6 +33,20 @@ Lien vers page Facebook/Instagram
 Logo (Géré en externe)  
 
 ## 05/11/2019:
+Repo GitHub (ok)
+Maquette (ok)
 Création de l'ossature (ok)  
-Création des pages et routes ()  
-Création des Users et login ()  
+Création des pages et routes principales (ok)  
+Création login (ok)  
+
+## Objectifs pour le 12/11/2019
+Début barre de Recherche (Willy)
+Création pages secondaires (Willy)
+Création user (Manon)
+Création FB/INSTA (Eve)
+Lien vers FB/INSTA (Eve)
+Se renseigner pour "Recette aléatoire" (Eve)
+Se renseigner pour le menu déroulant (Manon)
+Alimenter la doc 
+
+
