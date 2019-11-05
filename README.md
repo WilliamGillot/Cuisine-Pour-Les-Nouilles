@@ -35,6 +35,6 @@ Barre de recherche par mot clef
 Logo (Géré en externe)
 
 ## 05/11/2019:
-Création de l'ossature (ok)
-Création des pages et routes ()
-Création des Users et login ()
+Création de l'ossature (ok)  
+Création des pages et routes ()  
+Création des Users et login ()  
