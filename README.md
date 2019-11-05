@@ -40,13 +40,13 @@ Création des pages et routes principales (ok)
 Création login (ok)  
 
 ## Objectifs pour le 12/11/2019
-Début barre de Recherche (Willy)
+Se renseigner barre de Recherche (Willy) 
 Création pages secondaires (Willy) (ok)
-Création user (Manon)
+Création user (Manon) (ok)
 Création FB/INSTA (Eve)
 Lien vers FB/INSTA (Eve)
 Se renseigner pour "Recette aléatoire" (Eve)
 Se renseigner pour le menu déroulant (Manon)
 Alimenter la doc 
-
+bdd
 
