@@ -41,7 +41,7 @@ Création login (ok)
 
 ## Objectifs pour le 12/11/2019
 Début barre de Recherche (Willy)
-Création pages secondaires (Willy)
+Création pages secondaires (Willy) (ok)
 Création user (Manon)
 Création FB/INSTA (Eve)
 Lien vers FB/INSTA (Eve)
