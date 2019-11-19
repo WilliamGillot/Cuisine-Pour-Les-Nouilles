@@ -39,7 +39,7 @@ Création de l'ossature (ok)
 Création des pages et routes principales (ok)  
 Création login (ok)  
 
-## Objectifs pour le 12/11/2019
+## Objectifs pour le 19/11/2019
 Se renseigner barre de Recherche (Willy) (ok)  
 Création pages secondaires (Willy) (ok)    
 Création user (Manon) (ok)    
@@ -48,3 +48,8 @@ Se renseigner pour le menu déroulant (Manon) (ok)
 Alimenter la doc (ok)  
 bdd (ok)
 
+## 19/11/2019
+Faire barre de Recherche (Willy)
+Remplir bdd (Eve)
+faire menu déroulant (Manon)
+Alimenter la doc 
