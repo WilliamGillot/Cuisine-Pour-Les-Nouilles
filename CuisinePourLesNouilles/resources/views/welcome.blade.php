@@ -84,7 +84,7 @@
                 </div>
             @endif
 
-            <div class="content">
+            <!-- <div class="content"> -->
                 <div class="title m-b-md">
                     Cuisine pour les Nouilles
                 </div>
@@ -107,7 +107,7 @@
 
                     <div class="container">
                         <div class="dropdown">
-                            <p data-toggle="dropdown"><span class="badge badge-secondary">Recette</span></p>
+                            <h1 data-toggle="dropdown"><span class="badge badge-secondary">Recette</span></h1>
                             <div class="dropdown-menu">
                                 <a class="dropdown-item" href="#">Apéritif</a>
                                 <a class="dropdown-item" href="#">Entrées</a>
@@ -148,7 +148,7 @@
                         </li>
                     </ul> -->
                 </nav>
-            </div>
+            <!-- </div> -->
     </body>
 </html>
 
