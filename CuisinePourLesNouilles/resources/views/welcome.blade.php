@@ -84,7 +84,7 @@
                     Cuisine pour les Nouilles
                 </div>
 
-                <nav class="navbar navbar-expand-md navbar-light bg-light">
+                <!-- <nav class="navbar navbar-expand-md navbar-light bg-light">
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Recette
@@ -97,11 +97,33 @@
                             <a class="dropdown-item" href="#">Végétarien</a>
                             <a class="dropdown-item" href="#">Sans Gluten</a>
                         </div>
-                    </li>
-                    <ul class="navbar-nav">
-                        <!-- <li class="nav-item active">
+                    </li> -->
+
+
+                    <div class="container">
+                        <div class="dropdown">
+                            <h1 data-toggle="dropdown"><span class="badge badge-secondary">Recette</span></h1>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">Apéritif</a>
+                                <a class="dropdown-item" href="#">Entrées</a>
+                                <a class="dropdown-item" href="#">Plats</a>
+                            </div>
+                        </div>
+                    </div>
+                    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+                    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.0/umd/popper.min.js"></script>
+                    <script src="js/bootstrap.min.js"></script>
+                    <script>
+                    $('h1').mouseover(function() {
+                        $(this).dropdown('toggle')
+                    })
+                    </script>
+
+
+                    <!-- <ul class="navbar-nav">
+                        <li class="nav-item active">
                         <a class="nav-link" href="#">Recette Aléatoire <span class="sr-only">Accueil</span></a>
-                        </li> -->
+                        </li> 
                         <li class="nav-item">
                             <a class="nav-link" href="#">Articles</a>
                         </li>
@@ -119,7 +141,7 @@
                         <li class="nav-item">
                         <a class="nav-link" href="#">Table de Conversion</a>
                         </li>
-                    </ul>
+                    </ul> -->
                 </nav>
             </div>
     </body>
