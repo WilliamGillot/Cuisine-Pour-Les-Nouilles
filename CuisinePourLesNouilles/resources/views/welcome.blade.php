@@ -81,17 +81,49 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
+                    Cuisine pour les Nouilles
                 </div>
 
-                <div class="links">
-                    <a href="">Recette</a>
-                    <a href="">Recette Aléatoire</a>
-                    <a href="">Articles</a>
-                    <a href="">Boutique</a>
-                    <a href="">Table de conversion</a>
-                </div>
+                <nav class="navbar navbar-expand-md navbar-light bg-light">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Recette
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#">Apéritif</a>
+                            <a class="dropdown-item" href="#">Entrées</a>
+                            <a class="dropdown-item" href="#">Plats</a>
+                            <a class="dropdown-item" href="#">Desserts</a>
+                            <a class="dropdown-item" href="#">Végétarien</a>
+                            <a class="dropdown-item" href="#">Sans Gluten</a>
+                        </div>
+                    </li>
+                    <ul class="navbar-nav">
+                        <!-- <li class="nav-item active">
+                        <a class="nav-link" href="#">Recette Aléatoire <span class="sr-only">Accueil</span></a>
+                        </li> -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Articles</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Boutique
+                            </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#">Ustensiles</a>
+                            <a class="dropdown-item" href="#">Moules</a>
+                            <a class="dropdown-item" href="#">Livres</a>
+                            <a class="dropdown-item" href="#">Consommables</a>
+                        </div>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="#">Table de Conversion</a>
+                        </li>
+                    </ul>
+                </nav>
             </div>
-        </div>
     </body>
 </html>
+
+
+
