@@ -107,7 +107,7 @@
 
                     <div class="container">
                         <div class="dropdown">
-                            <h1 data-toggle="dropdown"><span class="badge badge-secondary">Recette</span></h1>
+                            <p data-toggle="dropdown"><span class="badge badge-secondary">Recette</span></p>
                             <div class="dropdown-menu">
                                 <a class="dropdown-item" href="#">Apéritif</a>
                                 <a class="dropdown-item" href="#">Entrées</a>
