@@ -40,11 +40,11 @@ Création des pages et routes principales (ok)
 Création login (ok)  
 
 ## Objectifs pour le 12/11/2019
-Se renseigner barre de Recherche (Willy) (ok)
-Création pages secondaires (Willy) (ok)  
-Création user (Manon) (ok)  
-Se renseigner pour "Recette aléatoire" (Eve)  
-Se renseigner pour le menu déroulant (Manon) (ok)
-Alimenter la doc (ok)
+Se renseigner barre de Recherche (Willy) (ok)  
+Création pages secondaires (Willy) (ok)    
+Création user (Manon) (ok)    
+Se renseigner pour "Recette aléatoire" (Eve) (ok)  
+Se renseigner pour le menu déroulant (Manon) (ok)  
+Alimenter la doc (ok)  
 bdd (ok)
 
