@@ -84,7 +84,7 @@
                 </div>
             @endif
 
-            <!-- <div class="content"> -->
+            <div class="content">
                 <div class="title m-b-md">
                     Cuisine pour les Nouilles
                 </div>
@@ -148,7 +148,7 @@
                         </li>
                     </ul> -->
                 </nav>
-            <!-- </div> -->
+            </div>
     </body>
 </html>
 
