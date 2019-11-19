@@ -102,9 +102,7 @@
 
                     <div class="container">
                         <div class="dropdown">
-                        <button id="menu" class="btn btn-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Action
-                        </button>
+                            <h1 data-toggle="dropdown"><span class="badge badge-secondary">Recette</span></h1>
                             <div class="dropdown-menu">
                                 <a class="dropdown-item" href="#">Apéritif</a>
                                 <a class="dropdown-item" href="#">Entrées</a>
