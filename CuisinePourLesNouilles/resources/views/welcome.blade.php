@@ -44,10 +44,16 @@
 
             .content {
                 text-align: center;
+                position: absolute;
+                right: 500px;
+                top: 20px;
+                
             }
 
+            /* taille tu titre */
+
             .title {
-                font-size: 84px;
+                font-size: 55px;
             }
 
             .links > a {
@@ -67,11 +73,18 @@
 
             /* MENU DEROULANT  */
 
+            #menu 
+            {
+                position: relative;
+                top: -500px;
+                left: 350px;
+            }
+
             #menu ul
             {
                 margin:0;
                 padding:0;
-                line-height: 30px;
+                line-height: 31px;
             }
 
             #menu li
@@ -79,18 +92,18 @@
                 list-style: none;
                 float: left;
                 position: relative;
-                background-color: #999;
+                background-color: #FFF;
             }
 
             #menu ul li a
             {
                 color: #000;
                 text-decoration: none;
-                width: 50px;
-                height: 30px;
+                width: 150px;
+                height: 40px;
                 display: block;
                 text-align: center;
-                border: 1px solid #000;
+                border: transparent;
                 /* text-shadow: 1px 1px 1px #ff0000; */
 
             }
@@ -109,7 +122,7 @@
 
             #menu li:hover
             {
-                background-color:#FFF ;
+                background-color: #999;
             }
 
             #menu ul li ul a:hover
