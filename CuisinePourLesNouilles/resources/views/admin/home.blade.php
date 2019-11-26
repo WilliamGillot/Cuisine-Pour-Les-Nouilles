@@ -1,4 +1,4 @@
-@extends('layouts.app')
+<!-- @extends('layouts.app')
 
 @section('content')
 <div class="container">
@@ -20,4 +20,9 @@
         </div>
     </div>
 </div>
-@endsection
+@endsection -->
+
+@extends('back.layout')
+    @section('main')
+        C'est ma page d'accueil !
+    @endsection
