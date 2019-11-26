@@ -9,6 +9,115 @@
         <link rel="stylesheet" href='styles.css' type="text/css"/>
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
+        <!-- Style -->
+        <style>
+        /* STYLE DE LA PAGE */
+
+            html, body {
+                background-color: #fff;
+                color: #636b6f;
+                font-family: 'Nunito', sans-serif;
+                font-weight: 200;
+                height: 100vh;
+                margin: 0;
+            }
+
+            .full-height {
+                height: 100vh;
+            }
+
+            .flex-center {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+            }
+
+            .position-ref {
+                position: relative;
+            }
+
+            .top-right {
+                position: absolute;
+                right: 10px;
+                top: 18px;
+            }
+
+            .content {
+                text-align: center;
+            }
+
+            .title {
+                font-size: 84px;
+            }
+
+            .links > a {
+                color: #636b6f;
+                padding: 0 25px;
+                font-size: 13px;
+                font-weight: 600;
+                letter-spacing: .1rem;
+                text-decoration: none;
+                text-transform: uppercase;
+            }
+
+            .m-b-md {
+                margin-bottom: 30px;
+            }
+
+
+            /* MENU DEROULANT  */
+
+            #menu ul
+            {
+                margin:0;
+                padding:0;
+                line-height: 30px;
+            }
+
+            #menu li
+            {
+                list-style: none;
+                float: left;
+                position: relative;
+                background-color: #999;
+            }
+
+            #menu ul li a
+            {
+                color: #000;
+                text-decoration: none;
+                width: 50px;
+                height: 30px;
+                display: block;
+                text-align: center;
+                border: 1px solid #000;
+                /* text-shadow: 1px 1px 1px #ff0000; */
+
+            }
+
+            #menu ul ul 
+            {
+                position: absolute;
+                top: 31px;
+                visibility: hidden;
+            }
+
+            #menu ul li:hover ul
+            {
+                visibility: visible;
+            }
+
+            #menu li:hover
+            {
+                background-color:#FFF ;
+            }
+
+            #menu ul li ul a:hover
+            {
+                color: #FFF;
+                background-color: #000;
+            }
+        </style>
     </head>
     <body>
         <div class="flex-center position-ref full-height">
