@@ -21,20 +21,20 @@ Route::get('/home', 'HomeController@index')->name('home');
 
 Route::get('/recette', function () {
     return view('recette');
-})->name("Recette");
+})->name("recette");
 
 Route::get('/recettealeatoire', function () {
     return view('recettealeatoire');
-})->name("Recette Aléatoire");
+})->name("recettealeatoire");
 
 Route::get('/articles', function () {
     return view('articles');
-})->name("Articles");
+})->name("articles");
 
 Route::get('/boutique', function () {
     return view('boutique');
-})->name("Boutique");
+})->name("boutique");
 
 Route::get('/tabledeconversion', function () {
     return view('tabledeconversion');
-})->name("Table de Conversion");
+})->name("tabledeconversion");
