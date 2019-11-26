@@ -39,6 +39,47 @@ Route::get('/tabledeconversion', function () {
     return view('tabledeconversion');
 })->name("tabledeconversion");
 
+Route::get('/aperitifs', function () {
+    return view('aperitifs');
+})->name("aperitifs");
+
+Route::get('/entrees', function () {
+    return view('entrees');
+})->name("entrees");
+
+Route::get('/plats', function () {
+    return view('plats');
+})->name("plats");
+
+Route::get('/desserts', function () {
+    return view('desserts');
+})->name("desserts");
+
+Route::get('/vegetarien', function () {
+    return view('vegetarien');
+})->name("vegetarien");
+
+Route::get('/sansgluten', function () {
+    return view('sansgluten');
+})->name("sansgluten");
+
+Route::get('/ustensiles', function () {
+    return view('ustensiles');
+})->name("ustensiles");
+
+Route::get('/moules', function () {
+    return view('moules');
+})->name("moules");
+
+Route::get('/livres', function () {
+    return view('livres');
+})->name("livres");
+
+Route::get('/consommables', function () {
+    return view('consommables');
+})->name("consommables");
+
+
 /* Route Admin */
 Route::namespace('Admin')->group(function() {
     Route::get('/admin/login', 'Auth\LoginController@showLoginForm')->name('admin.login');
