@@ -1,5 +1,8 @@
 <?php
 
+use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Database\Migrations\Migration;
+
 class CreateTable extends Migration {
   /**
    * Run the migrations.
@@ -18,28 +21,34 @@ class CreateTable extends Migration {
       $table->increments('id');
       $table->string('name');
     });
+    Schema::create('sub_cat', function (Blueprint $table) {
+      $table->increments('id');
+      $table->string('name');
+    });
     Schema::create('steps', function (Blueprint $table) {
       $table->increments('id');
       $table->string('steps');
     });
     Schema::create('ingredients', function (Blueprint $table) {
-      $table->incremernts('id');
+      $table->increments('id');
       $table->string('name');
     });
     Schema::create('recipe', function (Blueprint $table) {
       $table->increments('id');
       $table->string('name');
-      $table->string('category');
-      $table->int('quantité');
-      $table->string('steps');
+      $table->string('id_category');
+      $table->string('id_sub_cat');
+      $table->int('nb_parts');
+      $table->string('id_steps');
       $table->blob('picture');
     });
     Schema::create('cocktail', function (Blueprint $table) {
       $table->increments('id');
       $table->string('name');
-      $table->string('category');
-      $table->int('quantité');
-      $table->string('steps');
+      $table->string('id_category');
+      $table->string('id_sub_cat');
+      $table->int('nb_parts');
+      $table->string('id_steps');
       $table->blob('picture');
     });
   }
@@ -51,6 +60,7 @@ class CreateTable extends Migration {
   public function down() {
     Schema::dropIfExists('users');
     Schema::dropIfExists('category');
+    Schema::dropIfExists('sub_cat');
     Schema::dropIfExists('steps');
     Schema::dropIfExists('ingredients');
     Schema::dropIfExists('recipe');
