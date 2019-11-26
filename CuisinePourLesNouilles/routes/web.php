@@ -38,3 +38,10 @@ Route::get('/boutique', function () {
 Route::get('/tabledeconversion', function () {
     return view('tabledeconversion');
 })->name("tabledeconversion");
+
+/* Route Admin */
+Route::namespace('Admin')->group(function() {
+    Route::get('/admin/login', 'Auth\LoginController@showLoginForm')->name('admin.login');
+    Route::post('/admin/login', 'Auth\LoginController@Login');
+    Route::get('/admin/home', 'AdminController@index')->name('admin.home');
+});
