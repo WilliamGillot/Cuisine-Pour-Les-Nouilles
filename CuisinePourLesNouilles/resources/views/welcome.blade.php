@@ -11,7 +11,8 @@
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
         <!-- Style -->
         <style>
-        /* STYLE DE LA PAGE */
+
+            /* STYLE DE LA PAGE */
 
             html, body {
                 background-color: #fff;
@@ -50,7 +51,7 @@
                 
             }
 
-            /* taille tu titre */
+            /* TAILLE DU TITRE */
 
             .title {
                 font-size: 55px;
@@ -69,14 +70,13 @@
             .m-b-md {
                 margin-bottom: 30px;
             }
-
-
+            
             /* MENU DEROULANT  */
 
             #menu 
             {
                 position: relative;
-                top: -500px;
+                top: -580px;
                 left: 350px;
             }
 
@@ -128,11 +128,51 @@
             #menu ul li ul a:hover
             {
                 color: #FFF;
-                background-color: #000;
+                background-color: #999;
             }
+
+            /* BARRE DE RECHERCHE */
+            
+            #test
+            {
+                height: 40px;
+                width: 750px;
+            }
+
+            #recherche
+            {
+                position: relative;
+                top: -600px;
+                left: 370px;
+            }
+
+            /* BUTTON BARRE DE RECHERCHE */
+
+            .button1
+            {
+                background-color: white;
+                border: 2px solid #999;
+                color: black;
+                padding: 15px 32px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+                border-radius: 4px;   
+            }
+
+            .button1:hover
+            {
+                background-color: #999; 
+                color: black;
+            }
+
         </style>
     </head>
     <body>
+
+        <!-- LOGIN REGISTER -->
+
         <div class="flex-center position-ref full-height">
             @if (Route::has('login'))
                 <div class="top-right links">
@@ -148,13 +188,24 @@
                 </div>
             @endif
 
+            <!-- TITRE -->
+
             <div class="content">
                 <div class="title m-b-md">
                     Cuisine pour les Nouilles
                 </div>
             </div>
         </div>
-    
+
+        <!-- BARRE DE RECHERCHE -->
+
+        <div id='recherche'>
+            <input id="test" type="search" name="q" aria-label="Search through site content">
+            <button class="button1">Rechercher</button>
+        </div>
+
+        <!-- BARRE DE MENU -->
+
         <div id="menu">
             <ul>
                 <li>
@@ -181,7 +232,7 @@
             </ul>
             <ul>
                 <li>
-                <a href='/boutique'>Boutique</a>
+                <a href='#'>Boutique</a>
                 <ul>
                     <li><a href="/ustensiles">Ustensiles</a></li>
                     <li><a href="/moules">Moules</a></li>
