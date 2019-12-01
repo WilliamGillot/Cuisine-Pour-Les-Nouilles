@@ -1,19 +1,24 @@
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-
-        <title>Cuisine Pour Les Nouilles</title>
         
-        <link rel="stylesheet" href='styles.css' type="text/css"/>
-        <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+
+            <title>Cuisine Pour Les Nouilles</title>
+            
+            <link rel="stylesheet" href='styles.css' type="text/css"/>
+            <!-- Fonts -->
+            <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
+
+        
         <!-- Style -->
+
         <style>
 
             /* STYLE DE LA PAGE */
-
+             
+           
             html, body {
                 background-color: #fff;
                 color: #636b6f;
@@ -21,7 +26,9 @@
                 font-weight: 200;
                 height: 100vh;
                 margin: 0;
+                height:100%;
             }
+
 
             .full-height {
                 height: 100vh;
@@ -70,13 +77,13 @@
             .m-b-md {
                 margin-bottom: 30px;
             }
-            
+
             /* MENU DEROULANT  */
 
             #menu 
             {
                 position: relative;
-                top: -580px;
+                top: -600px;
                 left: 350px;
             }
 
@@ -142,7 +149,7 @@
             #recherche
             {
                 position: relative;
-                top: -600px;
+                top: -620px;
                 left: 370px;
             }
 
@@ -167,12 +174,45 @@
                 color: black;
             }
 
+            /* FOOTER */
+            
+            #footer  
+            {
+                position: fixed;
+                width: 100%;
+                bottom: 0;
+                background: #EEEEEE url(img/footer.png) repeat-x;
+                color: #000;
+            }
+
+            #contact
+            {
+                margin: 10px;
+                padding: 10px;
+            }
+
+            /* LOGO */
+            
+              /* #logo
+            {
+                float: left;
+            } */
+
+
         </style>
     </head>
     <body>
+    <div id="main">
+        <header> 
+
+        <!-- LOGO -->
+
+        <!-- <div class='logo'>
+            <a href="/welcome"><img src="logo" alt="logo"/></a>
+        </div>         -->
 
         <!-- LOGIN REGISTER -->
-
+        
         <div class="flex-center position-ref full-height">
             @if (Route::has('login'))
                 <div class="top-right links">
@@ -247,7 +287,26 @@
                 </li>
             </ul>
         </div>
+        </header>
     </body>
+    <footer>
+        <div id="footer">
+            <div class='contact'>
+                <p>Nous contacter:<p>
+                <a href="#"target="_blank">Instagram</a>
+                <br>
+                <a href="#"target="_blank">Facebook</a>
+            </div>
+                <a href="#"></a>
+                <br>
+                <a href="#"></a>
+
+            <div>
+
+            </div>
+        </div>
+    </footer>
+    </div>    
 </html>
 
 
