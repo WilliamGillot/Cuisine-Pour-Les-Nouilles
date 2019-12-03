@@ -2,7 +2,11 @@
 
 use Illuminate\Database\Seeder;
 
+<<<<<<< Updated upstream
 class CategoryTableSeeder extends Seeder
+=======
+class SubCategoryTableSeeder extends Seeder
+>>>>>>> Stashed changes
 {
     /**
      * Run the database seeds.
@@ -11,6 +15,7 @@ class CategoryTableSeeder extends Seeder
      */
     public function run()
     {
+<<<<<<< Updated upstream
         DB::table('sub_cat')->insert([
               'name' => 'Végétarien',
               'name' => 'Sans Gluten',
@@ -23,3 +28,8 @@ class CategoryTableSeeder extends Seeder
         ]);
     }
 }
+=======
+        //
+    }
+}
+>>>>>>> Stashed changes
