@@ -178,7 +178,7 @@
             
             #footer  
             {
-                position: fixed;
+                /* position: fixed; */
                 width: 100%;
                 bottom: 0;
                 background: #EEEEEE url(img/footer.png) repeat-x;

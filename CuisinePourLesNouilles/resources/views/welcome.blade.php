@@ -205,11 +205,10 @@
     <div id="main">
         <header> 
 
+        
+        
         <!-- LOGO -->
-
-        <!-- <div class='logo'>
-            <a href="/welcome"><img src="logo" alt="logo"/></a>
-        </div>         -->
+        <img src="{{asset('storage/logo.jpeg')}}"/>
 
         <!-- LOGIN REGISTER -->
         
@@ -228,7 +227,7 @@
                 </div>
             @endif
 
-            <!-- TITRE -->
+        <!-- TITRE -->
 
             <div class="content">
                 <div class="title m-b-md">

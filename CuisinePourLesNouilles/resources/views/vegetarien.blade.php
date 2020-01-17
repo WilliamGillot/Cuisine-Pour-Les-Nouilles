@@ -178,7 +178,7 @@
             
             #footer  
             {
-                position: fixed;
+                /* position: fixed; */
                 width: 100%;
                 bottom: 0;
                 background: #EEEEEE url(img/footer.png) repeat-x;
@@ -206,7 +206,7 @@
         <header> 
 
         <!-- LOGO -->
-
+        
         <!-- <div class='logo'>
             <a href="/welcome"><img src="logo" alt="logo"/></a>
         </div>         -->
@@ -227,6 +227,8 @@
                     @endauth
                 </div>
             @endif
+
+            <!-- LOGO -->
 
             <!-- TITRE -->
 
