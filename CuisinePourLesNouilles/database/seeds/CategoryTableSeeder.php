@@ -16,7 +16,7 @@ class CategoryTableSeeder extends Seeder
               'name' => 'Entrée',
               'name' => 'Plat',
               'name' => 'Dessert',
-              'name' => 'Cocktail'
+              'name' => 'Cocktail',
         ]);
     }
 }

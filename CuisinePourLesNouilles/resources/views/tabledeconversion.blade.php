@@ -83,7 +83,7 @@
             #menu 
             {
                 position: relative;
-                top: -575px;
+                top: -600px;
                 left: 350px;
             }
 
@@ -149,7 +149,7 @@
             #recherche
             {
                 position: relative;
-                top: -585px;
+                top: -620px;
                 left: 370px;
             }
 
@@ -178,21 +178,39 @@
             
             #footer  
             {
-                position: absolute;
+                position: fixed;
                 width: 100%;
                 bottom: 0;
                 background: #EEEEEE url(img/footer.png) repeat-x;
                 color: #000;
             }
 
+            #contact
+            {
+                margin: 10px;
+                padding: 10px;
+            }
 
+            /* LOGO */
+            
+              /* #logo
+            {
+                float: left;
+            } */
 
 
         </style>
     </head>
     <body>
     <div id="main">
-        <header>
+        <header> 
+
+        <!-- LOGO -->
+
+        <!-- <div class='logo'>
+            <a href="/welcome"><img src="logo" alt="logo"/></a>
+        </div>         -->
+
         <!-- LOGIN REGISTER -->
         
         <div class="flex-center position-ref full-height">
@@ -273,10 +291,19 @@
     </body>
     <footer>
         <div id="footer">
-            <p>Nous contacter:<p>
-            
-            <a href="#"target="_blank">Instagram</a>
-                
+            <div class='contact'>
+                <p>Nous contacter:<p>
+                <a href="#"target="_blank">Instagram</a>
+                <br>
+                <a href="#"target="_blank">Facebook</a>
+            </div>
+                <a href="#"></a>
+                <br>
+                <a href="#"></a>
+
+            <div>
+
+            </div>
         </div>
     </footer>
     </div>    
