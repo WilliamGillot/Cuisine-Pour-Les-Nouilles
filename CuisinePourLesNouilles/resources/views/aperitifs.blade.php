@@ -203,6 +203,7 @@
     </head>
     <body>
     <div id="main">
+    {{dd($users)}}
         <header> 
 
         <!-- LOGO -->
