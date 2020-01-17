@@ -20,28 +20,24 @@ class DatabaseSeeder extends Seeder
             UsersTableSeeder::class
         );
 
-        $this->call(
-            CategoryTableSeeder::class
-        );
+        // $this->call(
+        //     CocktailTableSeeder::class
+        // );
 
-        $this->call(
-            CocktailTableSeeder::class
-        );
+        // $this->call(
+        //     IngredientsTableSeeder::class
+        // );
 
-        $this->call(
-            IngredientsTableSeeder::class
-        );
+        // $this->call(
+        //     RecipeTableSeeder::class
+        // );
 
-        $this->call(
-            RecipeTableSeeder::class
-        );
+        // $this->call(
+        //     StepTableSeeder::class
+        // );
 
-        $this->call(
-            StepTableSeeder::class
-        );
-
-        $this->call(
-            SubCategoryTableSeeder::class
-        );
+        // $this->call(
+        //     SubCategoryTableSeeder::class
+        // );
     }
 }

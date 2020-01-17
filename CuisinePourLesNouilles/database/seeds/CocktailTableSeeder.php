@@ -11,7 +11,6 @@ class CocktailTableSeeder extends Seeder
      */
     public function run()
     {
-<<<<<<< Updated upstream
         DB::table('cocktail')->insert([
             [
                 'name' => 'Ti-Punch',
@@ -21,8 +20,5 @@ class CocktailTableSeeder extends Seeder
                 'picture' => '',
             ]
         ]);
-=======
-        //
->>>>>>> Stashed changes
     }
 }

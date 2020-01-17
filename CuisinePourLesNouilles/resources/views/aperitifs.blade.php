@@ -203,9 +203,10 @@
     </head>
     <body>
     <div id="main">
-    {{dd($users)}}
         <header> 
-
+@foreach ($users as $user)
+            {{$user->name}}
+@endforeach
         <!-- LOGO -->
 
         <!-- <div class='logo'>
