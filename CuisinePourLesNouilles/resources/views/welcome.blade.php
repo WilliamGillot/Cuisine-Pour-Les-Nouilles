@@ -185,10 +185,9 @@
                 color: #000;
             }
 
-            #contact
+            .contact
             {
-                margin: 10px;
-                padding: 10px;
+                text-align: center;
             }
 
             /* LOGO */

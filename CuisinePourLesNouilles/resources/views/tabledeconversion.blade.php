@@ -185,10 +185,9 @@
                 color: #000;
             }
 
-            #contact
+            .contact
             {
-                margin: 10px;
-                padding: 10px;
+                text-align: center;
             }
 
             /* LOGO */
@@ -288,6 +287,11 @@
             </ul>
         </div>
         </header>
+        <container>
+            <div>
+            <p>Pour convertir vos quantités dans différentes unités, veuillez cliquer <a href="http://maboite.qc.ca/recettes-outils-convertisseurs.php">ici</a>.</p>
+            </div>
+        </container>
     </body>
     <footer>
         <div id="footer">

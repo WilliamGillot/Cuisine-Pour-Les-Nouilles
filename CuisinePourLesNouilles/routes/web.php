@@ -19,6 +19,25 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
+////////////////////////////// test ///////////////////////////////////////////////////////////////
+Route::get('/aperitif', 'AperitifController@index')->name('aperitif');
+Route::get('/articles', 'ArticlesController@index')->name('articles');
+Route::get('/boutique', 'BoutiqueController@index')->name('boutique');
+Route::get('/consommables', 'ConsommablesController@index')->name('consommable');
+Route::get('/desserts', 'DessertController@index')->name('dessert');
+Route::get('/entrees', 'EntreesController@index')->name('entrees');
+Route::get('/livres', 'LivresController@index')->name('livres');
+Route::get('/moules', 'MoulesController@index')->name('moules');
+Route::get('/plats', 'PlatsController@index')->name('plats');
+Route::get('/recette', 'RecetteController@index')->name('recette');
+Route::get('/recettealeatoire', 'RecettealeatoireController@index')->name('recettealeatoire');
+Route::get('/sansgluten', 'SansglutenController@index')->name('sansgluten');
+Route::get('/tabledeconversion', 'TabledeconversionController@index')->name('tabledeconversion');
+Route::get('/ustensiles', 'UstensilesController@index')->name('ustensiles');
+Route::get('/vegetarien', 'VegetarienController@index')->name('vegetarien');
+Route::get('/welcome', 'WelcomeController@index')->name('welcome');
+///////////////////////////////////////////////////////////////////////////////////////////////////
+
 Route::get('/recette', function () {
     return view('recette');
 })->name("recette");
