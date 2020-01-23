@@ -55,12 +55,12 @@
                 position: absolute;
                 right: 500px;
                 top: 20px;
-                
+
             }
 
             /* TAILLE DU TITRE */
 
-            .title {
+            .h1 {
                 font-size: 55px;
             }
 
@@ -197,7 +197,31 @@
                 float: left;
             }
 
-
+            /* container */
+            .colonne 
+            {
+                display: inline-block;
+                width: 100%;
+                padding: 10px;
+            }
+            .ligne
+            {
+                display: inline-block;
+                background-color:#eee;
+                width: 30%;
+                margin-right: 10px;
+                
+            }
+            #g_div
+            {
+                width: 100%;
+            }
+            #container
+            {
+                top: -600px;
+                position: relative;
+                left: 23%;
+            }
         </style>
     </head>
     <body>
@@ -230,7 +254,7 @@
             <!-- TITRE -->
 
             <div class="content">
-                <div class="title m-b-md">
+                <div class="h1 m-b-md">
                     Cuisine pour les Nouilles
                 </div>
             </div>
@@ -287,6 +311,30 @@
             </ul>
         </div>
         </header>
+        <container id="container">
+            <div id="g_div">
+                <div class="colonne">
+                    <div class="ligne">
+                        <h1>test</h1>
+                        <p>blablabla</p>
+                    </div>
+                    <div class="ligne">
+                        <h1>test</h1>
+                        <p>blablabla</p>
+                    </div>
+                </div>
+                <div class="colonne">
+                    <div class="ligne">
+                        <h1>test</h1>
+                        <p>blablabla</p>
+                    </div>
+                    <div class="ligne">
+                        <h1>test</h1>
+                        <p>blablabla</p>
+                    </div>
+                </div>
+            </div>
+        </container>
     </body>
     <footer>
         <div id="footer">
