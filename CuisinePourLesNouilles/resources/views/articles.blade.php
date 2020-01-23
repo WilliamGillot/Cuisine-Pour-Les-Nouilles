@@ -193,10 +193,10 @@
 
             /* LOGO */
             
-              /* #logo
+              #logo
             {
                 float: left;
-            } */
+            }
 
 
         </style>
@@ -207,9 +207,9 @@
 
         <!-- LOGO -->
 
-        <!-- <div class='logo'>
+        <div class='logo'>
             <a href="/welcome"><img src="logo" alt="logo"/></a>
-        </div>         -->
+        </div>        
 
         <!-- LOGIN REGISTER -->
         

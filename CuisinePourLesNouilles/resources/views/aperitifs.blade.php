@@ -193,10 +193,10 @@
 
             /* LOGO */
             
-              /* #logo
+              #logo
             {
                 float: left;
-            } */
+            }
 
 
         </style>
@@ -204,14 +204,14 @@
     <body>
     <div id="main">
         <header> 
-@foreach ($users as $user)
+<!-- @foreach ($users as $user)
             {{$user->name}}
-@endforeach
+@endforeach -->
         <!-- LOGO -->
 
-        <!-- <div class='logo'>
+        <div class='logo'>
             <a href="/welcome"><img src="logo" alt="logo"/></a>
-        </div>         -->
+        </div>        
 
         <!-- LOGIN REGISTER -->
         

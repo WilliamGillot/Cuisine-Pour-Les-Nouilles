@@ -193,10 +193,13 @@
 
             /* LOGO */
             
-              /* #logo
+              #logo
             {
                 float: left;
-            } */
+                height: 10px;
+                width: auto;
+                
+            }
 
 
         </style>
@@ -208,8 +211,9 @@
         
         
         <!-- LOGO -->
-        <img src="{{asset('storage/logo.jpeg')}}"/>
-
+        <div class="logo">
+        <img src="{{asset('storage/logo.jpg')}}"/>
+        </div>
         <!-- LOGIN REGISTER -->
         
         <div class="flex-center position-ref full-height">
