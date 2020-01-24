@@ -331,8 +331,8 @@
                         <p>Nous avons crée ce site pour un projet donné par notre école. Nous ne connaissions rien à Laravel, voilà ce que ça donne :)  Eve André-Brenner, William Giollot et Manon Fargues.</p>
                     </div>
                     <div class="ligne">
-                        <h1>test</h1>
-                        <p>blablabla</p>
+                        <h3>Restauration</h3>
+                        <p>Un service de restauration est proposé par le CROUS dans ses restaurants universitaires, situés à proximité des lieux d'études et généralement ouverts du lundi au vendredi.</p>
                     </div>
                 </div>
             </div>
