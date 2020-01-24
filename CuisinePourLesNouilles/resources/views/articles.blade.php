@@ -83,10 +83,11 @@
             #menu 
             {
                 position: relative;
-                top: -600px;
+                top: -570px;
                 left: 350px;
                 z-index: 1000;
             }
+            
 
             #menu ul
             {
@@ -150,7 +151,7 @@
             #recherche
             {
                 position: relative;
-                top: -620px;
+                top: -580px;
                 left: 370px;
             }
 
@@ -222,7 +223,7 @@
             }
             #container
             {
-                top: -600px;
+                top: -580px;
                 position: relative;
                 left: 23%;
             }

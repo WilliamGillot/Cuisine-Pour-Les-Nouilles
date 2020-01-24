@@ -83,8 +83,9 @@
             #menu 
             {
                 position: relative;
-                top: -600px;
+                top: -570px;
                 left: 350px;
+                z-index: 1000;
             }
 
             #menu ul
@@ -149,7 +150,7 @@
             #recherche
             {
                 position: relative;
-                top: -620px;
+                top: -580px;
                 left: 370px;
             }
 
@@ -198,6 +199,49 @@
                 width: 50px;
 	            height: 50px;
                 margin-left: 385px;
+            }
+
+            /* container */
+            .colonne 
+            {
+                display: inline-block;
+                width: 100%;
+                padding: 15px;
+                
+              
+                
+            }
+            .ligne
+            {
+                display: inline-block;
+                background-color:#eee;
+                width: 30%;
+                margin-right: 10px;
+                margin-left: 5px;
+                
+                
+            }
+            #g_div
+            {
+                width: 100%;
+                
+            }
+            #container
+            {
+                top: -560px;
+                position: relative;
+                left: 25%;
+                top: -560px;
+                
+            }
+
+            .choco
+            {
+                float: left; 
+                top: -600px;
+                width: 21%;
+	            height: auto;
+                margin-left: 3px;
             }
 
         </style>
@@ -287,6 +331,20 @@
             </ul>
         </div>
         </header>
+
+        <container id="container">
+        
+            <div id="g_div">
+                <div class="colonne">
+                <img src="{{asset('storage/choco.jpg')}}" class="choco"/>
+                    <div class="ligne">
+                    
+                        <h3>Site de Cuisine</h3>
+                        <p>Nous avons crée ce site pour un projet donné par notre école. Nous ne connaissions pas grand chose à Laravel, nous avons essayé, voilà ce que ça donne :)  Eve André-Brenner, William Giollot et Manon Fargues.</p>
+                    </div>
+                </div>
+            </div>
+        </container>
     </body>
     <footer>
         <div id="footer">
@@ -301,7 +359,6 @@
                 <a href="#"></a>
 
             <div>
-
             </div>
         </div>
     </footer>

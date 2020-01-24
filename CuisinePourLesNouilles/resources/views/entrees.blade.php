@@ -83,7 +83,7 @@
             #menu 
             {
                 position: relative;
-                top: -600px;
+                top: -570px;
                 left: 350px;
             }
 
@@ -149,7 +149,7 @@
             #recherche
             {
                 position: relative;
-                top: -620px;
+                top: -580px;
                 left: 370px;
             }
 
@@ -206,10 +206,10 @@
     <body>
     <div id="main">
         <header> 
-
         <!-- LOGO -->
-
+      
         <a href="{{ url('/') }}"><img src="{{asset('storage/logo.jpg')}}" class="logo"/></a>
+        
 
         <!-- LOGIN REGISTER -->
         
@@ -228,7 +228,7 @@
                 </div>
             @endif
 
-            <!-- TITRE -->
+        <!-- TITRE -->
 
             <div class="content">
                 <div class="title m-b-md">
@@ -302,7 +302,6 @@
                 <a href="#"></a>
 
             <div>
-
             </div>
         </div>
     </footer>
