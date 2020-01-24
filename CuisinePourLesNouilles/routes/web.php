@@ -20,6 +20,7 @@ Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
 
 ////////////////////////////// test ///////////////////////////////////////////////////////////////
+Route::get('/layout','LayoutController@index')->name('layout');
 Route::get('/aperitif', 'AperitifController@index')->name('aperitif');
 Route::get('/articles', 'ArticlesController@index')->name('articles');
 Route::get('/boutique', 'BoutiqueController@index')->name('boutique');

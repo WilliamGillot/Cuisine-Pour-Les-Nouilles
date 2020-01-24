@@ -5,7 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Support\Facades\DB;
 use App\Http\Controllers\Controller;
 
-class AperitifController extends Controller
+class LayoutController extends Controller
 {
     /**
      * Show a list of all of the application's users.
@@ -15,7 +15,7 @@ class AperitifController extends Controller
     public function index()
     {
         $users = DB::table('users')->get()->all();
-        return view('aperitifs', ['users' => $users]);
+        return view('home', ['users' => $users]);
     }
 }
 ?>
