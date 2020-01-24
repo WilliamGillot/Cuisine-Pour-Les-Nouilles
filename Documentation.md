@@ -359,6 +359,11 @@ Route::get('/layout','LayoutController@index')->name('layout');
 https://adminlte.io/
 ```
 
+**Image cliquable**
+```bash
+<a href="{{ url('/') }}"><img src="{{asset('storage/logo.jpg')}}" class="logo"/></a>
+```
+
 
 ## V- Procédure pour avoir Laravel en local
 
