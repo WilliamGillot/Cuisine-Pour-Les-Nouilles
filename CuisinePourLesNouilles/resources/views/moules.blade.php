@@ -83,9 +83,8 @@
             #menu 
             {
                 position: relative;
-                top: -600px;
+                top: -570px;
                 left: 350px;
-                z-index: 1000;
             }
 
             #menu ul
@@ -150,7 +149,7 @@
             #recherche
             {
                 position: relative;
-                top: -620px;
+                top: -580px;
                 left: 370px;
             }
 
@@ -201,42 +200,16 @@
                 margin-left: 385px;
             }
 
-            /* container */
-            .colonne 
-            {
-                display: inline-block;
-                width: 100%;
-                padding: 10px;
-            }
-            .ligne
-            {
-                display: inline-block;
-                background-color:#eee;
-                width: 30%;
-                margin-right: 10px;
-                
-            }
-            #g_div
-            {
-                width: 100%;
-            }
-            #container
-            {
-                top: -600px;
-                position: relative;
-                left: 23%;
-            }
-
 
         </style>
     </head>
     <body>
     <div id="main">
         <header> 
-
         <!-- LOGO -->
-
+      
         <a href="{{ url('/') }}"><img src="{{asset('storage/logo.jpg')}}" class="logo"/></a>
+        
 
         <!-- LOGIN REGISTER -->
         
@@ -255,7 +228,7 @@
                 </div>
             @endif
 
-            <!-- TITRE -->
+        <!-- TITRE -->
 
             <div class="content">
                 <div class="title m-b-md">
@@ -315,30 +288,6 @@
             </ul>
         </div>
         </header>
-        <container id="container">
-            <div id="g_div">
-                <div class="colonne">
-                    <div class="ligne">
-                        <h1>test</h1>
-                        <p>blablabla</p>
-                    </div>
-                    <div class="ligne">
-                        <h1>test</h1>
-                        <p>blablabla</p>
-                    </div>
-                </div>
-                <div class="colonne">
-                    <div class="ligne">
-                        <h1>test</h1>
-                        <p>blablabla</p>
-                    </div>
-                    <div class="ligne">
-                        <h1>test</h1>
-                        <p>blablabla</p>
-                    </div>
-                </div>
-            </div>
-        </container>
     </body>
     <footer>
         <div id="footer">
@@ -353,7 +302,6 @@
                 <a href="#"></a>
 
             <div>
-
             </div>
         </div>
     </footer>
