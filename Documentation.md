@@ -172,9 +172,148 @@ Pour les routes dans le dossier 'routes/web.php':
 Route::get('/admin', 'AdminController@index')->name('admin')->middleware('auth', 'role:admin');
 ```
 
+**Barre de Recherche**
+```bash
+Dans tous les fichiers '.blade.php' du dossier 'views' :
+'Html' :
+<div id='recherche'>
+     <input id="test" type="search" name="q" aria-label="Search through site content">                                                
+     <button class="button1">Rechercher</button>
+</div>
+
+'Css barre de recherche' :
+#test
+            {
+                height: 40px;
+                width: 750px;
+            }
+
+            #recherche
+            {
+                position: relative;
+                top: -620px;
+                left: 370px;
+            }
+
+'Css bouton de la barre de recherche' :
+.button1
+            {
+                background-color: white;
+                border: 2px solid #999;
+                color: black;
+                padding: 15px 32px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+                border-radius: 4px;   
+            }
+
+            .button1:hover
+            {
+                background-color: #999; 
+                color: black;
+            }
+```
+
+**Menu déroulant**
+```bash
+Dans tous les fichiers '.blade.php' du dossier 'views' :
+'Html' :
+<div id="menu">
+            <ul>
+                <li>
+                <a href='#'>Recettes</a>
+                <ul>
+                    <li><a href="/aperitifs">Apéritif</a></li>
+                    <li><a href="/entrees">Entrées</a></li>
+                    <li><a href="/plats">Plats</a></li>
+                    <li><a href="/desserts">Desserts</a></li>
+                    <li><a href="/vegetarien">Végétarien</a></li>
+                    <li><a href="/sansgluten">Sans Gluten</a></li>
+                </ul>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                <a href='#'>Recette aléatoire</a>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                <a href='/articles'>Articles</a>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                <a href='#'>Boutique</a>
+                <ul>
+                    <li><a href="/ustensiles">Ustensiles</a></li>
+                    <li><a href="/moules">Moules</a></li>
+                    <li><a href="/livres">Livres</a></li>
+                    <li><a href="/consommables">Consommables</a></li>
+                </ul>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                <a href='/tabledeconversion'>Table de conversion</a>
+                </li>
+            </ul>
+        </div>
+
+'Css' :
+#test
+            {
+                height: 40px;
+                width: 750px;
+            }
+
+            #recherche
+            {
+                position: relative;
+                top: -620px;
+                left: 370px;
+            }
+```
+
 **Priorité d'affichage dans le css**
 ```bash
 z-index: 1000;
+```
+
+**Footer**
+```bash
+Dans tous les fichiers '.blade.php' du dossier 'views' :
+'Html' :
+<footer>
+        <div id="footer">
+            <div class='contact'>
+                <p>Nous contacter:<p>
+                <a href="#"target="_blank">Instagram</a>
+                <br>
+                <a href="#"target="_blank">Facebook</a>
+            </div>
+                <a href="#"></a>
+                <br>
+                <a href="#"></a>
+
+            <div>
+
+            </div>
+        </div>
+    </footer>
+
+'Css' :
+
+#footer  
+            {
+                position: fixed;
+                width: 100%;
+                bottom: 0;
+                background: #EEEEEE url(img/footer.png) repeat-x;
+                color: #000;
+            }
 ```
 
 **Afficher une table de la bdd**
