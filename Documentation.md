@@ -124,10 +124,10 @@ $php artisan make:migration Name >>> Création de fichier de migration dans le d
 $php artisan make:seeder Name >>> Création de seeder dans le dossier 'database/seeds'.
 ```
 
-**Inclure une photo**
+**Inclure des photos**
 ```bash
 $php artisan storage:link
-Ajouter la photo .png dans le dossier '/public/storage'
+Ajouter la photo dans le dossier '/public/storage'
 ```
 
 
@@ -374,7 +374,7 @@ https://laragon.org/
 
 **Activer Apache et MySQL de Laragon**
 ```bash
-Appuyer sur Play après le lancement de Laragon
+Appuyer sur Play après le lancement de Laragon.
 ```
 
 **Lancer les migrations et seeder**
@@ -384,7 +384,13 @@ $php artisan migrate:refresh seed
 
 **Ajout d'un administrateur dans la base bdd de Laragon**
 ```bash
-Rentrer dans la table admins de la bdd et ajouter un nouvel administrateur avec nom, email et mot de passe hashé (par bcrypted par exemple)
+Rentrer dans la table admins de la bdd et ajouter un nouvel administrateur avec nom, email et mot de passe hashé (par bcrypted par exemple).
+```
+
+**Ajout des images du sites**
+```bash
+$php artisan storage:link
+Ajouter les images 'logo.jpg' et 'choco.jpg' dans le fichier 'public/storage'.
 ```
 
 **Lancer le serveur en local**
