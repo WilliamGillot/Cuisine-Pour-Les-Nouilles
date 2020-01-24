@@ -85,6 +85,7 @@
                 position: relative;
                 top: -600px;
                 left: 350px;
+                z-index: 1000;
             }
 
             #menu ul
@@ -192,9 +193,12 @@
 
             /* LOGO */
             
-              #logo
+            .logo
             {
                 float: left;
+                width: 50px;
+	            height: 50px;
+                margin-left: 385px;
             }
 
             /* container */
@@ -230,9 +234,7 @@
 
         <!-- LOGO -->
 
-        <div class='logo'>
-            <a href="/welcome"><img src="logo" alt="logo"/></a>
-        </div>        
+        <a href="{{ url('/') }}"><img src="{{asset('storage/logo.jpg')}}" class="logo"/></a>       
 
         <!-- LOGIN REGISTER -->
         
@@ -315,18 +317,18 @@
             <div id="g_div">
                 <div class="colonne">
                     <div class="ligne">
-                        <h1>test</h1>
-                        <p>blablabla</p>
+                        <h3>Le Meilleur Pâtissier 2019 devait dans tous les cas être une pâtissière</h3>
+                        <p>Et à l’issue de la finale qui a opposé Stéphanie, Sophie et Camille, c’est cette dernière qui a remporté le concours ce mercredi 27 novembre sur M6. </p>
                     </div>
                     <div class="ligne">
-                        <h1>test</h1>
-                        <p>blablabla</p>
+                        <h3>Le restaurant Paul Bocuse perd sa troisième étoile au Michelin</h3>
+                        <p>Le restaurant mythique du chef disparu il y a deux ans détenait trois étoiles depuis plus de cinquante ans. C'est Le Point qui a révélé la perte de cette troisième étoile. </p>
                     </div>
                 </div>
                 <div class="colonne">
                     <div class="ligne">
-                        <h1>test</h1>
-                        <p>blablabla</p>
+                        <h3>Cuisine pour les Nouilles</h3>
+                        <p>Nous avons crée ce site pour un projet donné par notre école. Nous ne connaissions rien à Laravel, voilà ce que ça donne :)  Eve André-Brenner, William Giollot et Manon Fargues.</p>
                     </div>
                     <div class="ligne">
                         <h1>test</h1>

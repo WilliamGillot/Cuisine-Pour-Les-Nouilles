@@ -85,6 +85,7 @@
                 position: relative;
                 top: -600px;
                 left: 350px;
+                z-index: 1000;
             }
 
             #menu ul
@@ -192,10 +193,39 @@
 
             /* LOGO */
             
-              /* #logo
+            .logo
             {
                 float: left;
-            } */
+                width: 50px;
+	            height: 50px;
+                margin-left: 385px;
+            }
+
+            /* container */
+            .colonne 
+            {
+                display: inline-block;
+                width: 100%;
+                padding: 10px;
+            }
+            .ligne
+            {
+                display: inline-block;
+                background-color:#eee;
+                width: 30%;
+                margin-right: 10px;
+                
+            }
+            #g_div
+            {
+                width: 100%;
+            }
+            #container
+            {
+                top: -600px;
+                position: relative;
+                left: 23%;
+            }
 
 
         </style>
@@ -206,9 +236,7 @@
 
         <!-- LOGO -->
 
-        <!-- <div class='logo'>
-            <a href="/welcome"><img src="logo" alt="logo"/></a>
-        </div>         -->
+        <a href="{{ url('/') }}"><img src="{{asset('storage/logo.jpg')}}" class="logo"/></a>
 
         <!-- LOGIN REGISTER -->
         
@@ -287,6 +315,30 @@
             </ul>
         </div>
         </header>
+        <container id="container">
+            <div id="g_div">
+                <div class="colonne">
+                    <div class="ligne">
+                        <h1>test</h1>
+                        <p>blablabla</p>
+                    </div>
+                    <div class="ligne">
+                        <h1>test</h1>
+                        <p>blablabla</p>
+                    </div>
+                </div>
+                <div class="colonne">
+                    <div class="ligne">
+                        <h1>test</h1>
+                        <p>blablabla</p>
+                    </div>
+                    <div class="ligne">
+                        <h1>test</h1>
+                        <p>blablabla</p>
+                    </div>
+                </div>
+            </div>
+        </container>
     </body>
     <footer>
         <div id="footer">

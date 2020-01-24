@@ -192,27 +192,24 @@
 
             /* LOGO */
             
-              #logo
+            .logo
             {
                 float: left;
-                height: 10px;
-                width: auto;
-                
+                width: 50px;
+	            height: 50px;
+                margin-left: 385px;
             }
-
 
         </style>
     </head>
     <body>
     <div id="main">
         <header> 
-
-        
-        
         <!-- LOGO -->
-        <div class="logo">
-        <img src="{{asset('storage/logo.jpg')}}"/>
-        </div>
+      
+        <a href="{{ url('/') }}"><img src="{{asset('storage/logo.jpg')}}" class="logo"/></a>
+        
+
         <!-- LOGIN REGISTER -->
         
         <div class="flex-center position-ref full-height">

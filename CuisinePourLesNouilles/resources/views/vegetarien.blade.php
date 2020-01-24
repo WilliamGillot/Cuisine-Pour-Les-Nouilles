@@ -192,10 +192,13 @@
 
             /* LOGO */
             
-              /* #logo
+            .logo
             {
                 float: left;
-            } */
+                width: 50px;
+	            height: 50px;
+                margin-left: 385px;
+            }
 
 
         </style>
@@ -206,9 +209,7 @@
 
         <!-- LOGO -->
         
-        <!-- <div class='logo'>
-            <a href="/welcome"><img src="logo" alt="logo"/></a>
-        </div>         -->
+        <a href="{{ url('/') }}"><img src="{{asset('storage/logo.jpg')}}" class="logo"/></a> 
 
         <!-- LOGIN REGISTER -->
         
