@@ -13,9 +13,9 @@ class CreateSubCategoryTable extends Migration
      */
     public function up()
     {
-        Schema::create('sub_cat', function (Blueprint $table) {
+        Schema::create('sub_category', function (Blueprint $table) {
             $table->bigIncrements('id');
-            $table->string('name');
+            $table->timestamps();
         });
     }
 
@@ -26,6 +26,6 @@ class CreateSubCategoryTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('sub_cat');
+        Schema::dropIfExists('sub_category');
     }
 }
