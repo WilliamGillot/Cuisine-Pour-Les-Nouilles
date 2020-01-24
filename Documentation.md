@@ -122,7 +122,6 @@ $php artisan make:migration Name >>> Création de fichier de migration dans le d
 $php artisan make:seeder Name >>> Création de seeder dans le dossier 'database/seeds'.
 ```
 
-
 ## IV- Développement de Laravel
 
 **Créer une page**
@@ -171,4 +170,76 @@ factory(App\User::class, 10)->create()->each (function ($user) {
 ```bash
 Pour les routes dans le dossier 'routes/web.php':
 Route::get('/admin', 'AdminController@index')->name('admin')->middleware('auth', 'role:admin');
+```
+
+**Priorité d'affichage dans le css**
+```bash
+z-index: 1000;
+```
+
+**Afficher une table de la bdd**
+```bash
+Controller pour la requête SQL :
+<?php
+namespace App\Http\Controllers;
+use Illuminate\Support\Facades\DB;
+use App\Http\Controllers\Controller;
+
+class LayoutController extends Controller
+{
+    public function index()
+    {
+        $users = DB::table('users')->get()->all();
+        return view('home', ['users' => $users]);
+    }
+}
+?>
+
+Dans le fichier '/route/web.php' :
+Route::get('/layout','LayoutController@index')->name('layout');
+```
+
+**Afficher un élément de la bdd sur les views**
+```bash
+@foreach ($users as $user)
+            {{$user->name}}
+@endforeach
+```
+
+**Téléchargement Adminlte3**
+```bash
+https://adminlte.io/
+```
+
+## V- Procédure pour avoir Laravel en local
+
+**Télécharger Laragon**
+```bash
+https://laragon.org/
+```
+
+**Activer Apache et MySQL de Laragon**
+```bash
+Appuyer sur Play après le lancement de Laragon
+```
+
+**Lancer les migrations et seeder**
+```bash
+php artisan migrate:refresh seed
+```
+
+**Ajout d'un administrateur dans la base bdd de Laragon**
+```bash
+Rentrer dans la table admins de la bdd et ajouter un nouvel administrateur avec nom, email et mot de passe hashé (par bcrypted par exemple)
+```
+
+**Lancer le serveur en local**
+```bash
+php artisan serv
+http://127.0.0.1:8000
+```
+
+**Pour le login admin**
+```bash
+Ajouter directement dans l URL : http://127.0.0.1:8000/admin/login
 ```
