@@ -32,6 +32,7 @@ $composer create-project laravel/laravel Name
 $php artisan serv
 ```
 
+
 ## II- Les dossiers et fichiers
 
 **App**
@@ -104,6 +105,7 @@ Ce fichier est utilisé pour les librairie nod.
 Ce fichier est utilisé pour minifier les js et css/sass.
 ```
 
+
 ## III- Commandes
 
 **$php artisan migrate**
@@ -121,6 +123,13 @@ $php artisan make:middleware Name >>> Création de middleware dans le dossier 'a
 $php artisan make:migration Name >>> Création de fichier de migration dans le dossier 'database/migrations'.
 $php artisan make:seeder Name >>> Création de seeder dans le dossier 'database/seeds'.
 ```
+
+**Inclure une photo**
+```bash
+$php artisan storage:link
+Ajouter la photo .png dans le dossier '/public/storage'
+```
+
 
 ## IV- Développement de Laravel
 
@@ -350,6 +359,7 @@ Route::get('/layout','LayoutController@index')->name('layout');
 https://adminlte.io/
 ```
 
+
 ## V- Procédure pour avoir Laravel en local
 
 **Télécharger Laragon**
@@ -364,7 +374,7 @@ Appuyer sur Play après le lancement de Laragon
 
 **Lancer les migrations et seeder**
 ```bash
-php artisan migrate:refresh seed
+$php artisan migrate:refresh seed
 ```
 
 **Ajout d'un administrateur dans la base bdd de Laragon**
@@ -374,7 +384,7 @@ Rentrer dans la table admins de la bdd et ajouter un nouvel administrateur avec 
 
 **Lancer le serveur en local**
 ```bash
-php artisan serv
+$php artisan serv
 http://127.0.0.1:8000
 ```
 
