@@ -282,7 +282,7 @@
             </ul>
             <ul>
                 <li>
-                <a href='/tabledeconversion'>Table de conversion</a>
+                <a href="http://maboite.qc.ca/recettes-outils-convertisseurs.php">Table de conversion</a>
                 </li>
             </ul>
         </div>
